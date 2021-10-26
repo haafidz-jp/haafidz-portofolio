@@ -60,7 +60,7 @@ export default function Header() {
     <Container header>
       <Link href='/'>
         <a className='text-lg sm:text-xl lg:text-2xl font-medium hover:text-blue-500 dark:hover:text-pink-500 text-gray-900 dark:text-gray-200'>
-          Your Name
+          haafidz-jp
         </a>
       </Link>
 

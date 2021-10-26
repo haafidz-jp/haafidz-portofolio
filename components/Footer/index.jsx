@@ -1,13 +1,16 @@
-import { SiFacebook, SiGithub, SiNextDotJs, SiTelegram } from 'react-icons/si'
+import { SiFacebook, SiGithub, SiInstagram, SiTwitter, SiTwitch, SiNextDotJs, SiTelegram } from 'react-icons/si'
 import { Container } from '@/layouts'
 import { IoHeart } from 'react-icons/io5'
 
 // you can add another social media such as instagram, just dupllcate the component, and import the logo of the platform from react-icons
 // if you want to add icons, add Si on every platform name, as you can see above import, such as SiFacebook
-const yourEmailAddrress = 'youremail@mail.com'
-const yourGitHubLink = 'https://yourgithublink'
-const yourFacebookLink = 'https://yourfacebookname'
-const yourTelegramLink = 'https://yourtelegramlink'
+const yourEmailAddrress = 'haafidz123@protonmail.com'
+const yourGitHubLink = 'https://github.com/haafidz-jp/'
+const yourFacebookLink = 'https://facebook.com/haafidz.klc'
+const yourInstagramLink = 'https://instagram.com/haafidz.jp'
+const yourTwitterLink = 'https://twitter.com/haafidz-jp'
+const yourTwitchLink = 'https://www.twitch.tv/dookki373'
+// const yourTelegramLink = 'https://telegram.com/haafidz123'
 
 export default function Footer() {
   return (
@@ -37,9 +40,18 @@ export default function Footer() {
         <Link color='text-blue-400' href={yourFacebookLink}>
           <SiFacebook />
         </Link>
-        <Link color='text-blue-500' href={yourTelegramLink}>
-          <SiTelegram />
+        <Link color='text-blue-400' href={yourTwitterLink}>
+          <SiTwitter />
         </Link>
+        <Link color='text-pink-400' href={yourInstagramLink}>
+          <SiInstagram />
+        </Link>
+        <Link color='text-purple-800' href={yourTwitchLink}>
+          <SiTwitch />
+        </Link>
+        {/* <Link color='text-blue-500' href={yourTelegramLink}>
+          <SiTelegram />
+        </Link> */}
       </div>
     </Container>
   )

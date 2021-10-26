@@ -1,6 +1,7 @@
 const Typo = ({
   children,
   Title = false,
+  Title2 = false,
   SubTitle = false,
   Heading = false,
   SubHeading = false,
@@ -22,8 +23,10 @@ const Typo = ({
   
   */
   return Title ? (
-    <h1 className='text-lg sm:text-xl lg:text-3xl font-medium mb-2 sm:mb-4 lg:mb-6 underline text-gray-900 dark:text-gray-200'>{children}</h1>
-  ) : SubTitle ? (
+    <h1 className='text-lg sm:text-xl lg:text-3xl font-medium mb-2 sm:mb-4 lg:mb-6 text-gray-900 dark:text-gray-200'>{children}</h1>
+  ) : Title2 ? (
+    <h1 className='text-xl sm:text-2xl lg:text-6xl font-bold mb-2 sm:mb-4 lg:mb-6 text-gray-900 dark:text-gray-200'>{children}</h1>
+  )  : SubTitle ? (
     <p
       className={`text-sm sm:text-base lg:text-lg w-full leading-relaxed font-medium text-gray-800 dark:text-gray-300 ${
         hasWidth ? 'md:w-9/12' : ''

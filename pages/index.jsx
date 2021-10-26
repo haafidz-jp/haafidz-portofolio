@@ -10,7 +10,7 @@ import Head from 'next/head'
 let myButtons = [
   {
     text: 'Resume',
-    href: 'put your resume link here',
+    href: 'https://google.com',
     color: 'text-white bg-blue-500 hover:bg-blue-400 dark:bg-pink-500 dark:hover:bg-pink-400',
     isBlank: true,
   },
@@ -26,34 +26,16 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra,  portfolio, blogs, blog, portfolio' />
+        <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulanna Citra' />
+        <meta name='author' content='Haafidz Nurul Salim' />
         <meta
           name='description'
-          content="Hi, my Name is Rizki Maulana Citra, I'm a Front-end Developer based in Banten, Indonesia. I love about JavaScript world, and it's ecosystem including Front-end and Back-end, I'm also a student in Academy Information and Computer Management Serang, nice to meet you!"
+          content="Hi, my Name is Haafidz Nurul Salim, I'm a Junior Front-end Developer based in Bekasi, Indonesia. nice to meet you!"
         />
-
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://rizkimcitra.vercel.app/' />
-        <meta property='og:title' content='Rizki Maulana Citra | Homepage' />
-        <meta
-          property='og:description'
-          content="Hi, my Name is Rizki Maulana Citra, I'm a Front-end Developer based in Banten, Indonesia. I love about JavaScript world, and it's ecosystem including Front-end and Back-end, I'm currently studying in Academy Information and Computer Management Serang, nice to meet you!"
-        />
-        <meta property='og:image' content='https://rizkimcitra.vercel.app/og-image/homepage.png' />
-
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://rizkimcitra.vercel.app/' />
-        <meta property='twitter:title' content='Rizki Maulana Citra | Homepage' />
-        <meta
-          property='twitter:description'
-          content="Hi, my Name is Rizki Maulana Citra, I'm a Front-end Developer based in Banten, Indonesia. I love about JavaScript world, and it's ecosystem including Front-end and Back-end, I'm currently studying in Academy Information and Computer Management Serang, nice to meet you!"
-        />
-        <meta property='twitter:image' content='https://rizkimcitra.vercel.app/og-image/homepage.png' />
-        <title>Rizki Maulana Citra | Homepage</title>
+        <title>Haafidz Nurul Salim | Homepage</title>
       </Head>
 
       <Layout>
@@ -62,19 +44,19 @@ export default function Home() {
           <Container grid>
             <Container gridItem>
               <img
-                title='Your Name'
+                title='Haafidz Nurul Salim'
                 className='w-3/5 sm:w-2/5 lg:w-1/2 rounded-full opacity-90 dark:opacity-75 hover:opacity-100 transition'
                 src='/profile.webp'
-                alt='Your Name'
+                alt='Haafidz Nurul Salim'
               />
             </Container>
 
             <Container gridItem>
               <div className='w-full'>
-                <Typo Title>A Short Introduction</Typo>
+                <Typo Title>Hi, My name is</Typo>
+                <Typo Title2>Haafidz Nurul Salim</Typo>
                 <Typo SubTitle hasWidth marginBot>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sequi laudantium quisquam. Dicta, quos incidunt ipsam sapiente
-                  dignissimos ipsa ipsum consequatur pariatur veniam autem quo eius excepturi quod eveniet rem possimus dolor obcaecati.
+                  Known as Junior Web Developer and also Script Kiddie's.
                 </Typo>
 
                 <div className='w-full lg:w-1/2 flex items-stretch space-x-1 sm:space-x-2'>
