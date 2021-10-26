@@ -1,4 +1,4 @@
-import { SiFacebook, SiGithub, SiInstagram, SiTwitter, SiTwitch, SiNextDotJs, SiTelegram } from 'react-icons/si'
+import { SiFacebook, SiGithub, SiInstagram, SiTwitter, SiTwitch, SiNextDotJs } from 'react-icons/si'
 import { Container } from '@/layouts'
 import { IoHeart } from 'react-icons/io5'
 
@@ -10,7 +10,7 @@ const yourFacebookLink = 'https://facebook.com/haafidz.klc'
 const yourInstagramLink = 'https://instagram.com/haafidz.jp'
 const yourTwitterLink = 'https://twitter.com/haafidz-jp'
 const yourTwitchLink = 'https://www.twitch.tv/dookki373'
-// const yourTelegramLink = 'https://telegram.com/haafidz123'
+
 
 export default function Footer() {
   return (
@@ -49,9 +49,6 @@ export default function Footer() {
         <Link color='text-purple-800' href={yourTwitchLink}>
           <SiTwitch />
         </Link>
-        {/* <Link color='text-blue-500' href={yourTelegramLink}>
-          <SiTelegram />
-        </Link> */}
       </div>
     </Container>
   )
