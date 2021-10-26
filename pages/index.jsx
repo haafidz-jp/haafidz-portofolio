@@ -56,7 +56,7 @@ export default function Home() {
                 <Typo Title>Hi, My name is</Typo>
                 <Typo Title2>Haafidz Nurul Salim</Typo>
                 <Typo SubTitle hasWidth marginBot>
-                  Known as Junior Web Developer and also Script Kiddie's.
+                  Known as Junior Web Developer and also Script Kiddie&apos;s.
                 </Typo>
 
                 <div className='w-full lg:w-1/2 flex items-stretch space-x-1 sm:space-x-2'>
