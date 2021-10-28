@@ -1,5 +1,5 @@
 {
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "breadcrumbs.enabled": false,
   "workbench.statusBar.visible": false,
   "editor.bracketPairColorization.enabled": true,
