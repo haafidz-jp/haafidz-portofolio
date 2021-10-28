@@ -17,29 +17,24 @@ export default function Article({ articleData: { shortDesc, title, imageSrc, ima
   return (
     <>
       <Head>
-        <meta name='description' content={shortDesc} />
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra,  portfolio, blogs, blog, portfolio' />
+        <meta
+          name='description'
+          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here."
+        />
+        <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulanna Citra' />
-        <meta name='title' content={`Rizkimcitras' article | ${title}`} />
-
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content={`https://rizkimcitra.vercel.app${asPath}`} />
-        <meta property='og:title' content={`Rizkis' article | ${title}`} />
-        <meta property='og:description' content={shortDesc} />
-        <meta property='og:image' content={`https://rizkimcitra.vercel.app${imageSrc}`} />
-
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content={`https://rizkimcitra.vercel.app${asPath}`} />
-        <meta property='twitter:title' content={`Rizkis' article | ${title}`} />
-        <meta property='twitter:description' content={shortDesc} />
-        <meta property='twitter:image' content={`https://rizkimcitra.vercel.app${imageSrc}`} />
+        <meta name='author' content='Haafidz Nurul Salim' />
+        <meta
+          name='description'
+          content="Hi, my Name is Haafidz Nurul Salim, I'm a Junior Front-end Developer based in Bekasi, Indonesia. nice to meet you!"
+        />
+        <meta name='title' content={`Haafidz's article | ${title}`} />
 
         <base target='_blank' rel='noopener noreferrer' />
 
-        <title>{`Your Name article | ${title}`}</title>
+        <title>{`${title}`}</title>
       </Head>
       <Layout>
         <Header />

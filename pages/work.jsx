@@ -9,12 +9,12 @@ import Head from 'next/head'
 // of course you can use the gray matter to do the same thing as the `article` do, but i will be put the data here instead
 const staticData = [
   {
-    title: 'Your Project name',
-    desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia doloribus magni eos odit corrupti, tempore consequuntur quod rem doloremqu voluptate dolor suscipit quam quia nisi numquam consequatur obcaecati laboriosam, error omnis laudantium eaque?',
-    techs: ['JavaSript', 'TypeScript', 'NestJS', 'etc.'],
-    ghLink: 'https://toyourgithublink.com',
+    title: 'Pembuatan Aplikasi Stok Barang CV. Mulia Jaya Agung Menggunakan PHP dan MySQL Berbasis Web',
+    desc: 'Ditujukan untuk memenuhi Penulisan Ilmiah Universitas Gunadarma.',
+    techs: ['Codeigniter 4', 'Phpmyadmin','AJAX','SBAdmin2'],
+    ghLink: 'https://github.com/haafidz-jp/after-sidang',
     // change the demolink if you have one
-    demoLink: 'https://putthedemolinkhere.com',
+    demoLink: 'https://pi.haafidz.xyz',
   },
 ]
 
@@ -22,38 +22,21 @@ export default function Work() {
   return (
     <>
       <Head>
-        <meta
+      <meta
           name='description'
-          content='I often to create some project and do having fun with Web Development such as JavaScript, React, NextJS and CSS, so I will post
-              something I do with it here, some maybe useful for you.'
+          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here."
         />
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra, portfolio, Rizki Maulana Citra works, portfolio, Portfolio' />
+        <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulanna Citra' />
-        <meta name='title' content="Rizki Maulana Citra | Rizkis' work" />
-
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://rizkimcitra.vercel.app/work' />
-        <meta property='og:title' content="Rizki Maulana Citra | Rizkis' Work" />
+        <meta name='author' content='Haafidz Nurul Salim' />
         <meta
-          property='og:description'
-          content='I often to create some project and do having fun with Web Development such as JavaScript, React, NextJS and CSS, so I will post something I do with it here, some maybe useful for you.'
+          name='description'
+          content="Hi, my Name is Haafidz Nurul Salim, I'm a Junior Front-end Developer based in Bekasi, Indonesia. nice to meet you!"
         />
-        <meta property='og:image' content='https://rizkimcitra.vercel.app/og-image/work.png' />
 
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://rizkimcitra.vercel.app/' />
-        <meta property='twitter:title' content="Rizki Maulana Citra | Rizkis' Work" />
-        <meta
-          property='twitter:description'
-          content='I often to create some project and do having fun with Web Development such as JavaScript, React, NextJS and CSS, so I will post
-              something I do with it here, some maybe useful for you.'
-        />
-        <meta property='twitter:image' content='https://rizkimcitra.vercel.app/og-image/work.png' />
-
-        <title>Rizki Maulana Citra | Rizkis&apos; works</title>
+        <title>Haafidz Nurul Salim | Haafidz&apos; works</title>
       </Head>
       <Layout>
         <Header />
@@ -62,14 +45,13 @@ export default function Work() {
             <Typo Title>My works</Typo>
 
             <Typo SubTitle hasWidth widthProse>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tenetur fugiat amet voluptate voluptatem quas ab velit illum vero
-              dolorem praesentium qui distinctio cum, beatae voluptatum veniam, error adipisci totam asperiores tempora iure.
+              Berikut perjalanan proyek saya.
             </Typo>
           </section>
 
           <section className='w-full sm:px-2 lg:px-4'>
             <Typo Heading marginBot>
-              Latest activity
+              Latest works!
             </Typo>
 
             <ArticleWrapper grid>
@@ -99,7 +81,7 @@ export default function Work() {
                     </Button>
                     {/* if you have demo link then this will be displayed */}
                     {demoLink ? (
-                      <Button iconOnly href={ghLink}>
+                      <Button iconOnly href={demoLink}>
                         <IoEyeOutline />
                       </Button>
                     ) : null}

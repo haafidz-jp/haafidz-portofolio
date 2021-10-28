@@ -13,36 +13,22 @@ export default function Articles({ articlesData }) {
   return (
     <>
       <Head>
-        <meta
+      <meta
           name='description'
           content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here."
         />
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra,  portfolio, blogs, blog, portfolio' />
+        <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulanna Citra' />
-        <meta name='title' content="Rizki Maulana Citra | Rizkis' article" />
-
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://rizkimcitra.vercel.app/article' />
-        <meta property='og:title' content="Rizki Maulana Citra | Rizkis' article" />
+        <meta name='author' content='Haafidz Nurul Salim' />
         <meta
-          property='og:description'
-          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here,"
+          name='description'
+          content="Hi, my Name is Haafidz Nurul Salim, I'm a Junior Front-end Developer based in Bekasi, Indonesia. nice to meet you!"
         />
-        <meta property='og:image' content='https://rizkimcitra.vercel.app/og-image/article.png' />
+        <meta name='title' content="Haafidz Nurul Salim | Haafidz' article" />
 
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://rizkimcitra.vercel.app/article' />
-        <meta property='twitter:title' content="Rizki Maulana Citra | Rizkis' article" />
-        <meta
-          property='twitter:description'
-          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here,"
-        />
-        <meta property='twitter:image' content='https://rizkimcitra.vercel.app/og-image/article.png' />
-
-        <title>Rizki Maulana Citra | Rizkis&apos; article</title>
+        <title>Haafidz Nurul Salim | Haafidz&apos; article</title>
       </Head>
       <Layout>
         <Header />
@@ -50,9 +36,7 @@ export default function Articles({ articlesData }) {
           <section className='w-full'>
             <Typo Title>My articles</Typo>
             <Typo SubTitle widthProse>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis quia quas maxime hic illum. Natus labore modi assumenda error
-              iure omnis vero numquam ullam soluta, excepturi neque. Ad, odit omnis fugiat inventore mollitia perferendis facilis provident, animi
-              quibusdam sed doloremque modi nesciunt placeat unde numquam quo, voluptatum voluptatibus tempore aperiam beatae praesentium quod?
+              Artikel ini dibuat untuk sharing kepada semua!
             </Typo>
           </section>
           <section className='w-full'>

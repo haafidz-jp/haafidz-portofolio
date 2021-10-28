@@ -1,10 +1,11 @@
-import { SiTailwindcss, SiBootstrap, SiTypescript, SiNextDotJs, SiCss3, SiHtml5, SiJavascript, SiPhp, SiReact, SiNodeDotJs, SiAmazonaws, SiCloudflare, SiDocker } from 'react-icons/si'
+import { SiTailwindcss, SiFigma, SiBootstrap, SiTypescript, SiNextDotJs, SiCss3, SiHtml5, SiJavascript, SiPhp, SiCodeigniter, SiReact, SiNodeDotJs, SiAmazonaws, SiCloudflare, SiDocker, SiLaravel } from 'react-icons/si'
 import { Layout, Container } from '@/layouts'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import Typo from '@/components/Typography'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 // if you available in more stack, just add the data below, and also don't forget to import the icons from the react-icons above
 // the color property is for tailwind utilities, change it to match the tech color as possible
@@ -34,11 +35,26 @@ const techs = [
     color: 'text-purple-400',
     isExp: true,
   },
-
+  {
+    icon: <SiCodeigniter />,
+    color: 'text-red-500',
+    isExp: true,
+  },
+  {
+    icon: <SiLaravel />,
+    color: 'text-red-500',
+    isExp: true,
+  },
   {
     icon: <SiReact />,
     color: 'text-blue-500 dark:text-blue-400',
     isExp: true,
+  },
+// PEMBATAS
+  {
+    icon: <SiFigma />,
+    color: 'text-red-600 dark:text-red-500',
+    isExp: false,
   },
   {
     icon: <SiBootstrap />,
@@ -86,40 +102,33 @@ const techs = [
   },
 ]
 
+const Hindia = [
+  {
+    href: 'https://google.com',
+    isBlank: true,
+  }
+  
+]
+
 export default function About() {
   return (
     <>
       <Head>
         <meta
           name='description'
-          content="A passionate Front-end Developer who has a dream to conquer the world with his bare hand. Hi, my name is Rizki Maulana Citra, I'm a Front-end Developer who currently learning Back-end to become Full-stack Developer."
+          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here."
         />
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra, Rizki Maulana Citra about, portfolio, blogs, blog, portfolio' />
+        <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulanna Citra' />
-        <meta name='title' content="Rizki Maulana Citra | Rizki's work" />
-
-        <meta property='og:type' content='website' />
-        <meta property='og:url' content='https://rizkimcitra.vercel.app/about' />
-        <meta property='og:title' content="Rizki Maulana Citra | Rizkis' about" />
+        <meta name='author' content='Haafidz Nurul Salim' />
         <meta
-          property='og:description'
-          content="A passionate Front-end Developer who has a dream to conquer the world with his bare hand. Hi, my name is Rizki Maulana Citra, I'm a Front-end Developer who currently learning Back-end to become Full-stack Developer."
+          name='description'
+          content="Hi, my Name is Haafidz Nurul Salim, I'm a Junior Front-end Developer based in Bekasi, Indonesia. nice to meet you!"
         />
-        <meta property='og:image' content='https://rizkimcitra.vercel.app/og-image/about.png' />
 
-        <meta property='twitter:card' content='summary_large_image' />
-        <meta property='twitter:url' content='https://rizkimcitra.vercel.app/about' />
-        <meta property='twitter:title' content="Rizki Maulana Citra | Rizkis' about" />
-        <meta
-          property='twitter:description'
-          content="A passionate Front-end Developer who has a dream to conquer the world with his bare hand. Hi, my name is Rizki Maulana Citra, I'm a Front-end Developer who currently learning Back-end to become Full-stack Developer."
-        />
-        <meta property='twitter:image' content='https://rizkimcitra.vercel.app/og-image/about.png' />
-
-        <title>Haafidz Nurul Salim | Rizkis&apos; about</title>
+        <title>Haafidz Nurul Salim | Haafidz&apos; about</title>
       </Head>
 
       <Layout>
@@ -129,17 +138,16 @@ export default function About() {
             <div className='w-full'>
               <Typo Title>About me</Typo>
               <Typo SubTitle widthProse>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, laborum sed, sequi odit voluptatum vitae aut dolor incidunt earum
-                animi assumenda unde eligendi blanditiis beatae alias cupiditate vel! Omnis facere temporibus consequuntur aperiam?
+                Seorang Script Kiddie&apos;s yang berkedok sebgai mahasiswa.
               </Typo>
             </div>
             <div className='grid place-items-center w-full h-auto lg:h-full p-8 sm:p-0'>
               <Image
-                title='Your Name'
-                src='/profile.webp'
+                title='Haafidz Nurul Salim'
+                src='/profile.png'
                 width={328}
                 height={328}
-                alt='Your Name'
+                alt='Haafidz Nurul Salim'
                 className='object-cover rounded-full select-none opacity-90 dark:opacity-75 hover:opacity-100 transition'
               />
             </div>
@@ -147,10 +155,10 @@ export default function About() {
           <Container section itemsPos='lg:items-center'>
             <div className='max-w-prose'>
               <Typo SubHeading>Tech Stack</Typo>
-              <Typo Paragraph relaxed>
+              {/* <Typo Paragraph relaxed>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam in, quas culpa fugit magni doloremque mollitia dolore totam itaque.
                 Laborum debitis dolorem natus.
-              </Typo>
+              </Typo> */}
               <IconWrapper>
                 {techs
                   .filter(tech => tech.isExp === true)
@@ -177,12 +185,10 @@ export default function About() {
             <div className='max-w-prose lg:pl-6 2xl:pl-0'>
               <Typo SubHeading>Biography</Typo>
               <Typo Paragraph relaxed>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo, consequatur itaque perferendis aperiam nisi omnis placeat magni
-                nemo, iusto, reprehenderit quibusdam! Dolor, illo.
+                Seorang Mahasiswa di Universitas Gunadarma Kalimalang Jurusan Teknik Informatika.
               </Typo>
               <Typo Paragraph relaxed>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste alias enim amet possimus maiores vero id odio, explicabo quasi vel
-                officiis nobis rerum veritatis nisi quos eveniet nostrum hic! Eveniet quasi totam quidem!
+                Suka mendengar musik <Link href="https://open.spotify.com/artist/51kyrUsAVqUBcoDEMFkX12"><a className="text-green-600">Hindia</a></Link> dan membaca <Link href="https://catmanga.org/"><a className="text-pink-500">Manga</a></Link>.
               </Typo>
             </div>
           </Container>

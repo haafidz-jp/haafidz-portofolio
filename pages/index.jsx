@@ -26,6 +26,10 @@ export default function Home() {
   return (
     <>
       <Head>
+      <meta
+          name='description'
+          content="While I'm leveling up myself as a Developer, I want to share my knowledge, I will sometimes write about Web Development here."
+        />
         <meta name='keywords' content='haafidz-jp, Haafidz123, Haafidz Nurul Salim,  portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
@@ -45,8 +49,8 @@ export default function Home() {
             <Container gridItem>
               <img
                 title='Haafidz Nurul Salim'
-                className='w-3/5 sm:w-2/5 lg:w-1/2 rounded-full opacity-90 dark:opacity-75 hover:opacity-100 transition'
-                src='/profile.webp'
+                className='w-3/5 sm:w-3/5 lg:w-1/2 rounded-full opacity-90 dark:opacity-80 hover:opacity-100 transition'
+                src='/profile.png'
                 alt='Haafidz Nurul Salim'
               />
             </Container>
