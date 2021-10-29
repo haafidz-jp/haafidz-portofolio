@@ -1,4 +1,4 @@
-import { SiFacebook, SiGithub, SiInstagram, SiTwitter, SiTwitch, SiNextDotJs } from 'react-icons/si'
+import { SiFacebook, SiGithub, SiInstagram, SiTwitter, SiTwitch, SiNextDotJs, SiLinkedin } from 'react-icons/si'
 import { Container } from '@/layouts'
 import { IoHeart } from 'react-icons/io5'
 
@@ -6,6 +6,7 @@ import { IoHeart } from 'react-icons/io5'
 // if you want to add icons, add Si on every platform name, as you can see above import, such as SiFacebook
 const yourEmailAddrress = 'haafidz123@protonmail.com'
 const yourGitHubLink = 'https://github.com/haafidz-jp/'
+const yourLinkedinLink = 'https://www.linkedin.com/in/haafidz-nurul-salim-4b7a131b3/'
 const yourFacebookLink = 'https://facebook.com/haafidz.klc'
 const yourInstagramLink = 'https://instagram.com/haafidz.jp'
 const yourTwitterLink = 'https://twitter.com/haafidz-jp'
@@ -36,6 +37,9 @@ export default function Footer() {
       <div className='flex items-center space-x-2 sm:space-x-4 lg:space-x-6 justify-center'>
         <Link href={yourGitHubLink}>
           <SiGithub />
+        </Link>
+        <Link color='text-blue-500' href={yourLinkedinLink}>
+          <SiLinkedin />
         </Link>
         <Link color='text-blue-400' href={yourFacebookLink}>
           <SiFacebook />
