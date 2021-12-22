@@ -23,13 +23,13 @@ export default function MyApp({ Component, pageProps }) {
         <meta httpEquiv='X-UA-Compatible' content='ie=edge' />
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <meta httpEquiv='Content-Type' content='text/html;charset=UTF-8' />
-        <meta name='title' content='Rizkimcitra' />
-        <meta name='description' content='Rizki Maulana Citra is a Front-end Developer based in Banten, Indonesia.' />
-        <meta name='keywords' content='rizkimcitra, Rizkimcitra, Rizki Maulana Citra, portfolio, blogs, blog, portfolio' />
+        <meta name='title' content='Haafidz Nurul Salim' />
+        <meta name='description' content='Haafidz Nurul Salim is a Junior Front-end Developer.' />
+        <meta name='keywords' content='haafidz123, Haafidz Nurul Salim, portfolio, blogs, blog, portfolio' />
         <meta name='robots' content='index, follow' />
         <meta name='language' content='English' />
         <meta name='revisit-after' content='7 days' />
-        <meta name='author' content='Rizki Maulana Citra' />
+        <meta name='author' content='Haafidz Nurul Salim' />
         <meta name='publisher' content='vercel' />
       </Head>
       <Component {...pageProps} />
