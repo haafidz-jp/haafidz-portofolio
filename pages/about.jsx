@@ -21,7 +21,7 @@ const techs = [
   },
   {
     icon: <SiTailwindcss />,
-    color: 'text-blue-400 dark:text-blue-300',
+    color: 'text-blue-400 dark:text-blue-600',
     isExp: true,
   },
   {
@@ -179,7 +179,7 @@ export default function About() {
                 Seorang Mahasiswa di Universitas Gunadarma Kalimalang Jurusan Teknik Informatika.
               </Typo>
               <Typo Paragraph relaxed>
-                Suka mendengar musik Hindia dan membaca Manga.
+                Suka mendengar musik <a className='text-green-600' href='https://open.spotify.com/artist/51kyrUsAVqUBcoDEMFkX12?si=EPKpN4ehTs6bjGodFCcVGw' rel="noreferrer" target="_blank" >Hindia</a> dan membaca <a className='text-blue-500' href='https://www.maid.my.id/' rel="noreferrer" target="_blank">Manga</a>.
               </Typo>
             </div>
           </Container>

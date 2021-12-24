@@ -29,7 +29,7 @@ export default function Button({ children, homeBtn = false, href, isBlank = fals
   ) : iconOnly ? (
     <a
       href={href}
-      title='see on GitHub'
+      // title='Go to the page'
       target='_blank'
       rel='noopener noreferrer'
       className='inline-grid place-items-center p-2 text-sm sm:text-base lg:text-lg rounded-full text-gray-800 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700'>
