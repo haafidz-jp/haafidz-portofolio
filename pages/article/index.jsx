@@ -1,6 +1,6 @@
 import { Container, Layout, ArticleItem, ArticleWrapper } from '@/layouts'
 import { getSortedArticles } from '@/libs/posts'
-import { BiRightArrowAlt } from 'react-icons/bi'
+// import { BiRightArrowAlt } from 'react-icons/bi'
 import Date from '@/components/Date'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'

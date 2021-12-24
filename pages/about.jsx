@@ -5,7 +5,6 @@ import Footer from '@/components/Footer'
 import Typo from '@/components/Typography'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 
 // if you available in more stack, just add the data below, and also don't forget to import the icons from the react-icons above
 // the color property is for tailwind utilities, change it to match the tech color as possible
@@ -102,14 +101,6 @@ const techs = [
   },
 ]
 
-const Hindia = [
-  {
-    href: 'https://google.com',
-    isBlank: true,
-  }
-  
-]
-
 export default function About() {
   return (
     <>
@@ -188,7 +179,7 @@ export default function About() {
                 Seorang Mahasiswa di Universitas Gunadarma Kalimalang Jurusan Teknik Informatika.
               </Typo>
               <Typo Paragraph relaxed>
-                Suka mendengar musik <Link href="https://open.spotify.com/artist/51kyrUsAVqUBcoDEMFkX12"><a className="text-green-600">Hindia</a></Link> dan membaca <Link href="https://catmanga.org/"><a className="text-pink-500">Manga</a></Link>.
+                Suka mendengar musik Hindia dan membaca Manga.
               </Typo>
             </div>
           </Container>

@@ -10,9 +10,9 @@ import readingTime from 'reading-time'
 import Head from 'next/head'
 import Image from 'next/image'
 
-export default function Article({ articleData: { shortDesc, title, imageSrc, imageAuthor, imageLink, date, contentHtml } }) {
+export default function Article({ articleData: { title, imageSrc, imageAuthor, imageLink, date, contentHtml } }) {
   const { text } = readingTime(contentHtml)
-  const { asPath } = useRouter()
+  // const { asPath } = useRouter()
 
   return (
     <>
