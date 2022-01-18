@@ -10,7 +10,7 @@ import Head from 'next/head'
 let myButtons = [
   {
     text: 'Resume',
-    href: '/Resume_HaafidzNurulSalim.pdf',
+    href: 'https://haafidzxyz.s3.ap-southeast-1.amazonaws.com/CV_HaafidzNurulSalim.pdf',
     color: 'text-white bg-blue-500 hover:bg-blue-400 dark:bg-pink-500 dark:hover:bg-pink-400',
     isBlank: true,
   },
