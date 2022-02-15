@@ -129,7 +129,7 @@ export default function About() {
             <div className='w-full'>
               <Typo Title>About me</Typo>
               <Typo SubTitle widthProse>
-                Seorang Script Kiddie&apos;s yang berkedok sebgai mahasiswa.
+                Seorang mahasiswa semester akhir yang bergelut di bidang Web Developer dan juga IT Support.
               </Typo>
             </div>
             <div className='grid place-items-center w-full h-auto lg:h-full p-8 sm:p-0'>

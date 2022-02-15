@@ -7,10 +7,10 @@ import { IoHeart } from 'react-icons/io5'
 const yourEmailAddrress = 'haafidz123@protonmail.com'
 const yourGitHubLink = 'https://github.com/haafidz-jp/'
 const yourLinkedinLink = 'https://www.linkedin.com/in/haafidz-nurul-salim-4b7a131b3/'
-const yourFacebookLink = 'https://facebook.com/haafidz.klc'
+// const yourFacebookLink = 'https://facebook.com/haafidz.klc'
 const yourInstagramLink = 'https://instagram.com/haafidz.jp'
-const yourTwitterLink = 'https://twitter.com/haafidz-jp'
-const yourTwitchLink = 'https://www.twitch.tv/dookki373'
+// const yourTwitterLink = 'https://twitter.com/haafidz-jp'
+// const yourTwitchLink = 'https://www.twitch.tv/dookki373'
 
 
 export default function Footer() {
