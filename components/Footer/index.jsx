@@ -41,18 +41,18 @@ export default function Footer() {
         <Link color='text-blue-500' href={yourLinkedinLink}>
           <SiLinkedin />
         </Link>
-        <Link color='text-blue-400' href={yourFacebookLink}>
+        {/* <Link color='text-blue-400' href={yourFacebookLink}>
           <SiFacebook />
-        </Link>
-        <Link color='text-blue-400' href={yourTwitterLink}>
+        </Link> */}
+        {/* <Link color='text-blue-400' href={yourTwitterLink}>
           <SiTwitter />
-        </Link>
+        </Link> */}
         <Link color='text-pink-400' href={yourInstagramLink}>
           <SiInstagram />
         </Link>
-        <Link color='text-purple-800' href={yourTwitchLink}>
+        {/* <Link color='text-purple-800' href={yourTwitchLink}>
           <SiTwitch />
-        </Link>
+        </Link> */}
       </div>
     </Container>
   )
